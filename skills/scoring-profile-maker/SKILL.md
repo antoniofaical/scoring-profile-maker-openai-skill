@@ -1,6 +1,6 @@
 ---
 name: scoring-profile-maker
-description: Cria e revisa perfis JSON de scoring para o startup-theme-adherence-classifier-jev a partir de briefings de scouting, temas ou definições de aderência. Use para definir critérios, perguntas Jev, pesos, agregação e versionamento de um perfil. Não executa classificação de empresas nem gera listas de search queries.
+description: Cria e revisa perfis JSON de scoring para o startup-theme-adherence-classifier-jev a partir de briefings de scouting, temas ou definições de aderência. Quando o significado do score ainda não estiver definido, usa concept-expansion disponível para propor necessidades, critérios e um alvo observável. Não executa classificação de empresas nem busca de fornecedores.
 ---
 
 # Scoring Profile Maker
@@ -23,6 +23,12 @@ de uma dimensão forte compensar uma fraca. A partir de uma expansão de scoutin
 use necessidades e funções relevantes; queries e palavras-chave não são
 automaticamente critérios de aderência.
 
+O usuário não precisa saber previamente o que um score alto significa. Quando
+essa definição faltar, ou o usuário pedir integração com concept-expansion, leia
+[references/concept-expansion.md](references/concept-expansion.md) e aplique o
+fluxo de descoberta do alvo antes de escrever o perfil. Reutilize uma expansão
+existente que cubra a demanda; um perfil claro não exige uma nova expansão.
+
 Distinga aderência direta ao tema de potencial de aplicação funcional (de-para).
 No de-para, avalie funções documentadas que correspondam à necessidade de destino;
 a menção literal ao tema pode ser auxiliar. Não infira adaptabilidade, validação
@@ -31,7 +37,7 @@ clínica ou disponibilidade de produto a partir de uma função genérica.
 Use o contexto já fornecido. Pergunte apenas por decisões ausentes que mudariam
 os critérios ou a lógica do score, agrupando as perguntas críticas. Enquanto
 aguarda, organize o briefing e as questões em aberto. Se não for possível definir
-o alvo, entregue esse estado e não fabrique um perfil executável. Propostas
+o alvo mesmo após a expansão, entregue esse estado e não fabrique um perfil executável. Propostas
 razoáveis de pesos iguais e escolhas de agregação podem constar como hipóteses
 explícitas de um rascunho; não obrigue o usuário a preencher um formulário.
 
@@ -111,6 +117,9 @@ as escolhas de pesos/agregação, fontes e hipóteses, os casos de revisão, os
 resultados reais da validação (incluindo hashes), o impacto sobre reutilização
 de respostas e as pendências de revisão humana/calibração. Referencie as fontes
 junto das escolhas que sustentam; não invente justificativas externas.
+Se usar expansão, registre também seus IDs de origem, os ramos selecionados e
+adiados, a definição proposta de score alto e quais hipóteses ainda precisam de
+revisão. Preserve os campos humanos da expansão e do perfil anterior.
 
 Respeite pedidos de somente JSON, de outra estrutura de arquivos ou de uma
 resposta curta no chat. Nesses casos, mantenha a revisão internamente e entregue

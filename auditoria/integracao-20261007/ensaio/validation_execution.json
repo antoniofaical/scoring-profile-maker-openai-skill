@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\anton\\.codex\\.chatgpt-projects\\g-p-6a7f05486e308191a46f904f953afeef\\scoring-profile-maker-openai-skill\\.venv\\Scripts\\python.exe",
+    "-B",
+    "C:\\Users\\anton\\.codex\\.chatgpt-projects\\g-p-6a7f05486e308191a46f904f953afeef\\scoring-profile-maker-openai-skill\\skills\\scoring-profile-maker\\scripts\\validate_profile.py",
+    "C:\\Users\\anton\\.codex\\.chatgpt-projects\\g-p-6a7f05486e308191a46f904f953afeef\\scoring-profile-maker-openai-skill\\auditoria\\integracao-20261007\\ensaio\\profile.json",
+    "--classifier-root",
+    "C:\\Users\\anton\\.codex\\.chatgpt-projects\\g-p-6a7f05486e308191a46f904f953afeef\\outputs\\scoring-profile-maker-reference"
+  ],
+  "exit_code": 0,
+  "stdout": "{\n  \"valid\": true,\n  \"validation_scope\": \"Bundled JSON Schema plus runtime invariants; not semantic approval or empirical calibration\",\n  \"profile\": {\n    \"id\": \"small_workshop_service_continuity\",\n    \"version\": \"1.0.0\"\n  },\n  \"profile_sha256\": \"7a8aa9f94818c4d881c3eb7d4a881d58d43cc38f2307bceb5036f0b4e500aee6\",\n  \"question_set_sha256\": \"184f4c04ba1f170fd6e328b3cd82f9ebe1a77eaaf21571bdb8361bef17c3aec2\",\n  \"core_count\": 1,\n  \"auxiliary_count\": 4,\n  \"bundled_classifier_commit\": \"dbd6c4cc4fb35bb820205b500b2bdf67eb84b34b\",\n  \"classifier_runtime\": {\n    \"valid\": true,\n    \"profile_sha256\": \"7a8aa9f94818c4d881c3eb7d4a881d58d43cc38f2307bceb5036f0b4e500aee6\",\n    \"question_set_sha256\": \"184f4c04ba1f170fd6e328b3cd82f9ebe1a77eaaf21571bdb8361bef17c3aec2\",\n    \"schema_matches_bundled\": true,\n    \"root\": \"C:\\\\Users\\\\anton\\\\.codex\\\\.chatgpt-projects\\\\g-p-6a7f05486e308191a46f904f953afeef\\\\outputs\\\\scoring-profile-maker-reference\",\n    \"commit\": \"dbd6c4cc4fb35bb820205b500b2bdf67eb84b34b\",\n    \"revision_scope\": \"Working checkout runtime; commit does not assert a clean checkout\"\n  }\n}\n",
+  "stderr": ""
+}

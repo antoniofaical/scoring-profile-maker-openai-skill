@@ -7,7 +7,7 @@ from zipfile import ZIP_DEFLATED, ZipFile, ZipInfo
 
 ROOT = Path(__file__).resolve().parents[1]
 SKILL = ROOT / "skills/scoring-profile-maker"
-VERSION = "0.1.0"
+VERSION = "0.2.0"
 
 
 def package(destination: Path | None = None) -> Path:

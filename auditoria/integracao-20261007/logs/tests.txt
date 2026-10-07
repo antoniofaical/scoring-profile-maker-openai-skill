@@ -1,0 +1,21 @@
+test_all_supported_aggregations (test_profiles.ContractTests.test_all_supported_aggregations) ... ok
+test_bundled_profiles_and_template_valid (test_profiles.ContractTests.test_bundled_profiles_and_template_valid) ... ok
+test_cli_diagnostics_are_utf8_under_legacy_parent_encoding (test_profiles.ContractTests.test_cli_diagnostics_are_utf8_under_legacy_parent_encoding) ... ok
+test_cli_reports_real_success_and_failure (test_profiles.ContractTests.test_cli_reports_real_success_and_failure) ... ok
+test_identity_boundaries_and_version_warnings (test_profiles.ContractTests.test_identity_boundaries_and_version_warnings) ... ok
+test_invalid_contracts_rejected (test_profiles.ContractTests.test_invalid_contracts_rejected) ... ok
+test_question_changes_require_new_answers (test_profiles.ContractTests.test_question_changes_require_new_answers) ... ok
+test_scoring_changes_preserve_answer_identity (test_profiles.ContractTests.test_scoring_changes_preserve_answer_identity) ... ok
+test_strict_json_rejects_ambiguous_inputs (test_profiles.ContractTests.test_strict_json_rejects_ambiguous_inputs) ... ok
+test_package_metadata_links_and_hashes (test_profiles.DistributionTests.test_package_metadata_links_and_hashes) ... ok
+test_zip_is_deterministic_and_self_contained (test_profiles.DistributionTests.test_zip_is_deterministic_and_self_contained) ... ok
+test_compatible_revisions_have_same_upstream_hash (test_profiles.UpstreamParityTests.test_compatible_revisions_have_same_upstream_hash) ... ok
+test_invalid_corpus_matches_authoritative_runtime (test_profiles.UpstreamParityTests.test_invalid_corpus_matches_authoritative_runtime) ... ok
+test_real_runtime_validation_and_hashes (test_profiles.UpstreamParityTests.test_real_runtime_validation_and_hashes) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 1.499s
+{"path": "C:\\Users\\anton\\.codex\\.chatgpt-projects\\g-p-6a7f05486e308191a46f904f953afeef\\scoring-profile-maker-openai-skill\\.tmp\\tmpl6u0678k\\one.zip", "sha256": "5b7ceb80288ef200f6626e438bccc350079361f7d3151838c9667e7b5290fcb1"}
+{"path": "C:\\Users\\anton\\.codex\\.chatgpt-projects\\g-p-6a7f05486e308191a46f904f953afeef\\scoring-profile-maker-openai-skill\\.tmp\\tmpl6u0678k\\two.zip", "sha256": "5b7ceb80288ef200f6626e438bccc350079361f7d3151838c9667e7b5290fcb1"}
+
+OK

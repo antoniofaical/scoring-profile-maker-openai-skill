@@ -1,0 +1,15 @@
+{
+  "profile_json_parsed": true,
+  "profile_contract_runtime_exit_code": 0,
+  "profile_valid": true,
+  "profile_request_consistency": true,
+  "synthetic_calculations_passed": 7,
+  "human_review_fields_null": true,
+  "no_map_json_or_query_exports": true,
+  "protected_trees_unchanged": true,
+  "limits": [
+    "Profile_request usa modelo de briefing sem schema executável próprio; conferência de consistência não é validação formal de schema.",
+    "Mapa somente nas notas, parcial/preliminar, sem execução dos validadores de concept-expansion.",
+    "Sem teste instalado de seleção automática da skill, sem respostas Jev e sem calibração de domínio."
+  ]
+}

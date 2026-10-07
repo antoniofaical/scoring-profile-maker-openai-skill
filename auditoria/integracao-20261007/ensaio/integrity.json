@@ -1,0 +1,26 @@
+{
+  "skill": {
+    "files_before": 14,
+    "files_after": 14,
+    "changed": [],
+    "added": [],
+    "removed": [],
+    "unchanged": true
+  },
+  "plugin": {
+    "files_before": 9,
+    "files_after": 9,
+    "changed": [],
+    "added": [],
+    "removed": [],
+    "unchanged": true
+  },
+  "classifier": {
+    "files_before": 84,
+    "files_after": 84,
+    "changed": [],
+    "added": [],
+    "removed": [],
+    "unchanged": true
+  }
+}

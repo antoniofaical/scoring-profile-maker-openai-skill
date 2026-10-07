@@ -1,0 +1,22 @@
+{
+  "valid": true,
+  "validation_scope": "Bundled JSON Schema plus runtime invariants; not semantic approval or empirical calibration",
+  "profile": {
+    "id": "small_workshop_service_continuity",
+    "version": "1.0.0"
+  },
+  "profile_sha256": "7a8aa9f94818c4d881c3eb7d4a881d58d43cc38f2307bceb5036f0b4e500aee6",
+  "question_set_sha256": "184f4c04ba1f170fd6e328b3cd82f9ebe1a77eaaf21571bdb8361bef17c3aec2",
+  "core_count": 1,
+  "auxiliary_count": 4,
+  "bundled_classifier_commit": "dbd6c4cc4fb35bb820205b500b2bdf67eb84b34b",
+  "classifier_runtime": {
+    "valid": true,
+    "profile_sha256": "7a8aa9f94818c4d881c3eb7d4a881d58d43cc38f2307bceb5036f0b4e500aee6",
+    "question_set_sha256": "184f4c04ba1f170fd6e328b3cd82f9ebe1a77eaaf21571bdb8361bef17c3aec2",
+    "schema_matches_bundled": true,
+    "root": "C:\\Users\\anton\\.codex\\.chatgpt-projects\\g-p-6a7f05486e308191a46f904f953afeef\\outputs\\scoring-profile-maker-reference",
+    "commit": "dbd6c4cc4fb35bb820205b500b2bdf67eb84b34b",
+    "revision_scope": "Working checkout runtime; commit does not assert a clean checkout"
+  }
+}

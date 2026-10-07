@@ -1,0 +1,178 @@
+{
+  "scope": "Cálculo do runtime com valores fabricados. Não são respostas Jev, classificação de empresas ou calibração empírica.",
+  "cases": [
+    {
+      "case": "S01 especialista orçamento",
+      "synthetic_inputs": [
+        {
+          "evidence_unit": "a",
+          "probabilities": {
+            "request_continuity_match": 0.95,
+            "quotation_follow_up": 0.95,
+            "appointment_coordination": 0.0,
+            "service_stage_visibility": 0.0,
+            "small_workshop_context": 0.0
+          }
+        }
+      ],
+      "expected_score": 95.0,
+      "observed_score": 95.0,
+      "evidence_units": 1,
+      "pass": true
+    },
+    {
+      "case": "S02 especialista agenda",
+      "synthetic_inputs": [
+        {
+          "evidence_unit": "a",
+          "probabilities": {
+            "request_continuity_match": 0.95,
+            "quotation_follow_up": 0.0,
+            "appointment_coordination": 0.95,
+            "service_stage_visibility": 0.0,
+            "small_workshop_context": 0.0
+          }
+        }
+      ],
+      "expected_score": 95.0,
+      "observed_score": 95.0,
+      "evidence_units": 1,
+      "pass": true
+    },
+    {
+      "case": "S03 especialista etapa",
+      "synthetic_inputs": [
+        {
+          "evidence_unit": "a",
+          "probabilities": {
+            "request_continuity_match": 0.95,
+            "quotation_follow_up": 0.0,
+            "appointment_coordination": 0.0,
+            "service_stage_visibility": 0.95,
+            "small_workshop_context": 0.0
+          }
+        }
+      ],
+      "expected_score": 95.0,
+      "observed_score": 95.0,
+      "evidence_units": 1,
+      "pass": true
+    },
+    {
+      "case": "S04 core fraco e auxiliares altos",
+      "synthetic_inputs": [
+        {
+          "evidence_unit": "a",
+          "probabilities": {
+            "request_continuity_match": 0.05,
+            "quotation_follow_up": 1.0,
+            "appointment_coordination": 1.0,
+            "service_stage_visibility": 1.0,
+            "small_workshop_context": 1.0
+          }
+        }
+      ],
+      "expected_score": 5.0,
+      "observed_score": 5.0,
+      "evidence_units": 1,
+      "pass": true
+    },
+    {
+      "case": "S05 de-para sem setor literal",
+      "synthetic_inputs": [
+        {
+          "evidence_unit": "a",
+          "probabilities": {
+            "request_continuity_match": 0.95,
+            "quotation_follow_up": 0.0,
+            "appointment_coordination": 0.95,
+            "service_stage_visibility": 0.0,
+            "small_workshop_context": 0.0
+          }
+        }
+      ],
+      "expected_score": 95.0,
+      "observed_score": 95.0,
+      "evidence_units": 1,
+      "pass": true
+    },
+    {
+      "case": "S06 três unidades, uma forte e duas fracas",
+      "synthetic_inputs": [
+        {
+          "evidence_unit": "a",
+          "probabilities": {
+            "request_continuity_match": 0.95,
+            "quotation_follow_up": 0.0,
+            "appointment_coordination": 0.0,
+            "service_stage_visibility": 0.0,
+            "small_workshop_context": 0.0
+          }
+        },
+        {
+          "evidence_unit": "b",
+          "probabilities": {
+            "request_continuity_match": 0.05,
+            "quotation_follow_up": 0.0,
+            "appointment_coordination": 0.0,
+            "service_stage_visibility": 0.0,
+            "small_workshop_context": 0.0
+          }
+        },
+        {
+          "evidence_unit": "c",
+          "probabilities": {
+            "request_continuity_match": 0.05,
+            "quotation_follow_up": 0.0,
+            "appointment_coordination": 0.0,
+            "service_stage_visibility": 0.0,
+            "small_workshop_context": 0.0
+          }
+        }
+      ],
+      "expected_score": 59.0,
+      "observed_score": 59.0,
+      "evidence_units": 3,
+      "pass": true
+    },
+    {
+      "case": "S07 repetições da mesma unidade",
+      "synthetic_inputs": [
+        {
+          "evidence_unit": "a",
+          "probabilities": {
+            "request_continuity_match": 0.95,
+            "quotation_follow_up": 0.0,
+            "appointment_coordination": 0.0,
+            "service_stage_visibility": 0.0,
+            "small_workshop_context": 0.0
+          }
+        },
+        {
+          "evidence_unit": "a",
+          "probabilities": {
+            "request_continuity_match": 0.05,
+            "quotation_follow_up": 0.0,
+            "appointment_coordination": 0.0,
+            "service_stage_visibility": 0.0,
+            "small_workshop_context": 0.0
+          }
+        },
+        {
+          "evidence_unit": "a",
+          "probabilities": {
+            "request_continuity_match": 0.05,
+            "quotation_follow_up": 0.0,
+            "appointment_coordination": 0.0,
+            "service_stage_visibility": 0.0,
+            "small_workshop_context": 0.0
+          }
+        }
+      ],
+      "expected_score": 95.0,
+      "observed_score": 95.0,
+      "evidence_units": 1,
+      "pass": true
+    }
+  ]
+}

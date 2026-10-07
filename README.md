@@ -24,6 +24,21 @@ Por padrão, a entrega contém `profile.json`, `profile_request.json` e
 `design_notes.md`. Um pedido de somente JSON é respeitado. Um perfil anterior
 pode ser fornecido para revisão e análise de reutilização das respostas.
 
+Se você ainda não sabe o que um score alto deve significar, a skill propõe esse
+alvo a partir do tema e da decisão que deseja apoiar. Quando o plugin
+concept-expansion está disponível, ela o usa para explorar necessidades e
+funções e traduzir os ramos pertinentes em critérios rastreáveis. Uma expansão
+existente pode ser reutilizada. A definição proposta permanece um rascunho;
+pedidos de escolha se limitam a alternativas que mudem a avaliação.
+
+> Use $scoring-profile-maker para criar um perfil a partir deste briefing.
+> Ainda não sei o que um score alto deve representar. Use concept-expansion
+> para propor o alvo e os critérios e explique as hipóteses.
+
+Concept-expansion é uma capacidade opcional do ambiente. Sem o plugin, a skill
+organiza uma expansão preliminar a partir do material fornecido e declara a
+limitação. Detalhes: [fluxo de integração](skills/scoring-profile-maker/references/concept-expansion.md).
+
 ## Verificação local
 
 Python 3.11+:
@@ -35,7 +50,7 @@ python tools/check_package.py
 python tools/package_skill.py
 ```
 
-O último comando gera `dist/scoring-profile-maker-0.1.0.zip`, com a skill e seus
+O último comando gera `dist/scoring-profile-maker-0.2.0.zip`, com a skill e seus
 recursos, sem ambiente virtual, caches, testes ou auditoria. Para usar somente
 o validador, instale `requirements.txt`.
 
