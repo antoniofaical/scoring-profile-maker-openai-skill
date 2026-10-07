@@ -1,0 +1,7 @@
+{
+  "request_1_valid": true,
+  "request_2_valid": true,
+  "request_2_same_questions": true,
+  "request_3_expected_rejection": true,
+  "test_scope": "Offline contract and synthetic calculations; not empirical calibration"
+}

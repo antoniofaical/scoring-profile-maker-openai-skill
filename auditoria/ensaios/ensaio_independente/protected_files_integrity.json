@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-07",
+  "all_checked_files_unchanged": true,
+  "files": {
+    "C:\\Users\\anton\\.codex\\.chatgpt-projects\\g-p-6a7f05486e308191a46f904f953afeef\\scoring-profile-maker-openai-skill\\skills\\scoring-profile-maker\\SKILL.md": "ad86ccdbba48da27ec0617758bfc85743c66e04e04939b001768031f36536521",
+    "C:\\Users\\anton\\.codex\\.chatgpt-projects\\g-p-6a7f05486e308191a46f904f953afeef\\scoring-profile-maker-openai-skill\\skills\\scoring-profile-maker\\agents\\openai.yaml": "1331bf0494fadcb4540e00c3028f40aac80f9106f3cceb6e607a06a25e55d690",
+    "C:\\Users\\anton\\.codex\\.chatgpt-projects\\g-p-6a7f05486e308191a46f904f953afeef\\scoring-profile-maker-openai-skill\\skills\\scoring-profile-maker\\assets\\profile.template.json": "8f530924c385f2e61a94f547fee75d1853f6388091a6097b966c7e24dee03589",
+    "C:\\Users\\anton\\.codex\\.chatgpt-projects\\g-p-6a7f05486e308191a46f904f953afeef\\scoring-profile-maker-openai-skill\\skills\\scoring-profile-maker\\assets\\profile_request.template.json": "844272fa5508c427a16071a1ee011fd6f7bb1f8922e7ad6bd3d259ef22b4c6e6",
+    "C:\\Users\\anton\\.codex\\.chatgpt-projects\\g-p-6a7f05486e308191a46f904f953afeef\\scoring-profile-maker-openai-skill\\skills\\scoring-profile-maker\\references\\contract.md": "339f6aa959d282abc6b4d5579c596fb8e18b295a29dfafa57d30638d709003d5",
+    "C:\\Users\\anton\\.codex\\.chatgpt-projects\\g-p-6a7f05486e308191a46f904f953afeef\\scoring-profile-maker-openai-skill\\skills\\scoring-profile-maker\\references\\design.md": "baf1192b0932003a47a2ce5c1c60470b9b524fdfb5b1907974791a377c2fefc1",
+    "C:\\Users\\anton\\.codex\\.chatgpt-projects\\g-p-6a7f05486e308191a46f904f953afeef\\scoring-profile-maker-openai-skill\\skills\\scoring-profile-maker\\references\\profile.schema.json": "59d9ee663a70371925640fab34694b64b28ae0165428d550e5289fbe3d13148d",
+    "C:\\Users\\anton\\.codex\\.chatgpt-projects\\g-p-6a7f05486e308191a46f904f953afeef\\scoring-profile-maker-openai-skill\\skills\\scoring-profile-maker\\references\\upstream.json": "19a6839750eea3d009d4f3961fb04887cdb42c02afbc5e0ff4400ab2106e1ea7",
+    "C:\\Users\\anton\\.codex\\.chatgpt-projects\\g-p-6a7f05486e308191a46f904f953afeef\\scoring-profile-maker-openai-skill\\skills\\scoring-profile-maker\\scripts\\validate_profile.py": "cfc3af4de4144bd5dd8a61e659a8c510f2dd3c3b479f61ef8c036536995508e6",
+    "C:\\Users\\anton\\.codex\\.chatgpt-projects\\g-p-6a7f05486e308191a46f904f953afeef\\scoring-profile-maker-openai-skill\\skills\\scoring-profile-maker\\scripts\\_profile_contract.py": "d7325a7f320b3594758a3c21aa11ae181149373bf86af6b8bc85007ca2ff84e5",
+    "C:\\Users\\anton\\.codex\\.chatgpt-projects\\g-p-6a7f05486e308191a46f904f953afeef\\scoring-profile-maker-openai-skill\\skills\\scoring-profile-maker\\references\\examples\\digital_twin.json": "a727473becc964384c9ecbd75432a8d8dedaa706fbcf2b4f949892d5391bc190",
+    "C:\\Users\\anton\\.codex\\.chatgpt-projects\\g-p-6a7f05486e308191a46f904f953afeef\\scoring-profile-maker-openai-skill\\skills\\scoring-profile-maker\\references\\examples\\gsd_patient_journey_mapping.json": "b0309fc711cf43aa190c686d286ea504b1e73e819eee1fb0725d03adea7ab785",
+    "C:\\Users\\anton\\.codex\\.chatgpt-projects\\g-p-6a7f05486e308191a46f904f953afeef\\outputs\\scoring-profile-maker-reference\\src\\startup_adherence\\domain\\profile.py": "5650b57c700f630ca8b53710a8e7cea6fbbdda0858ed5224ebdf25f60c986a45",
+    "C:\\Users\\anton\\.codex\\.chatgpt-projects\\g-p-6a7f05486e308191a46f904f953afeef\\outputs\\scoring-profile-maker-reference\\src\\startup_adherence\\domain\\scoring.py": "19cd28123719b668c3ba8cc24c198c03608ceb2a21bfaa1045f9eb57c86a71ee",
+    "C:\\Users\\anton\\.codex\\.chatgpt-projects\\g-p-6a7f05486e308191a46f904f953afeef\\outputs\\scoring-profile-maker-reference\\src\\startup_adherence\\profiles\\profile.schema.json": "593eca7232bdfc37d4520064d016da6da5da5ec72d3d619afe35e9676c72f187"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "request_schema_version": 1,
+  "profile_id": "agricultural_cooperative_functional_mapping",
+  "profile_name": "De-para funcional para necessidades de cooperativas agrícolas",
+  "objective": "Priorizar a investigação de empresas com funções documentadas que correspondam a pelo menos uma necessidade de cooperativas agrícolas.",
+  "subject": "Empresa e suas soluções descritas em sites públicos da própria empresa.",
+  "target_definition": "Suporte forte a uma função concreta que corresponda a registrar entradas e saídas de estoque, rastrear lotes identificáveis ou preparar pedidos de reposição. Basta uma dessas necessidades. Score alto não demonstra implantação em cooperativas.",
+  "decision_use": "Ordenação preliminar para investigação humana; sem aprovação automática.",
+  "evidence_description": "Texto de sites públicos das empresas; nenhuma coleta foi realizada neste ensaio.",
+  "evidence_exclusions": [
+    "Rótulo de setor como prova funcional",
+    "Autodeclaração ampla como prova funcional",
+    "Funções inferidas de marca ou plausibilidade",
+    "Maturidade e financiamento como gates"
+  ],
+  "required_dimensions": [
+    {
+      "name": "De-para funcional concreto",
+      "definition": "Correspondência entre uma função documentada e pelo menos uma necessidade de destino; as três são alternativas.",
+      "importance": "required"
+    }
+  ],
+  "optional_signals": [
+    {
+      "name": "inventory_movements",
+      "definition": "Does the evidence describe a solution function that records inventory receipts and issues for identifiable items?"
+    },
+    {
+      "name": "lot_traceability",
+      "definition": "Does the evidence describe a solution function that links an identifiable lot to records or movements for traceability?"
+    },
+    {
+      "name": "replenishment_orders",
+      "definition": "Does the evidence describe a solution function that prepares replenishment orders using item or stock information?"
+    },
+    {
+      "name": "agricultural_sector_context",
+      "definition": "Does the evidence explicitly place the company or its solution in the agricultural sector?"
+    },
+    {
+      "name": "cooperative_target_self_claim",
+      "definition": "Does the company explicitly claim that its solution serves agricultural cooperatives?"
+    }
+  ],
+  "missing_evidence_policy": "Baixo suporte ou incerteza quando a função não é documentada; ausência não prova inexistência.",
+  "compensation_policy": "Um único core representa a suficiência de qualquer necessidade; os auxiliares não alteram o score.",
+  "languages": [
+    "English"
+  ],
+  "known_edge_cases": [
+    "Software varejista que registra estoque sem mencionar agricultura",
+    "Empresa agrícola com marketing genérico sem funções documentadas",
+    "Solução somente de rastreabilidade",
+    "Solução somente de reposição",
+    "Descrição vaga ou coleta incompleta"
+  ]
+}

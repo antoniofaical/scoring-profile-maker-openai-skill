@@ -1,0 +1,28 @@
+{
+  "exit_code": 0,
+  "expected_exit_code": 0,
+  "stdout": "{\n  \"valid\": true,\n  \"validation_scope\": \"Bundled JSON Schema plus runtime invariants; not semantic approval or empirical calibration\",\n  \"profile\": {\n    \"id\": \"agricultural_cooperative_functional_mapping\",\n    \"version\": \"1.0.0\"\n  },\n  \"profile_sha256\": \"150a12b596c3c43c62653c66417d37439d5a094f15826b2043102244625f3afd\",\n  \"question_set_sha256\": \"5db5ceababbf91cb933f1299b01d2491db268b8a9ab8797b91d0d333a10465e6\",\n  \"core_count\": 1,\n  \"auxiliary_count\": 5,\n  \"bundled_classifier_commit\": \"dbd6c4cc4fb35bb820205b500b2bdf67eb84b34b\",\n  \"classifier_runtime\": {\n    \"valid\": true,\n    \"profile_sha256\": \"150a12b596c3c43c62653c66417d37439d5a094f15826b2043102244625f3afd\",\n    \"question_set_sha256\": \"5db5ceababbf91cb933f1299b01d2491db268b8a9ab8797b91d0d333a10465e6\",\n    \"schema_matches_bundled\": true,\n    \"root\": \"C:\\\\Users\\\\anton\\\\.codex\\\\.chatgpt-projects\\\\g-p-6a7f05486e308191a46f904f953afeef\\\\outputs\\\\scoring-profile-maker-reference\",\n    \"commit\": \"dbd6c4cc4fb35bb820205b500b2bdf67eb84b34b\",\n    \"revision_scope\": \"Working checkout runtime; commit does not assert a clean checkout\"\n  }\n}\n",
+  "stderr": "",
+  "report": {
+    "valid": true,
+    "validation_scope": "Bundled JSON Schema plus runtime invariants; not semantic approval or empirical calibration",
+    "profile": {
+      "id": "agricultural_cooperative_functional_mapping",
+      "version": "1.0.0"
+    },
+    "profile_sha256": "150a12b596c3c43c62653c66417d37439d5a094f15826b2043102244625f3afd",
+    "question_set_sha256": "5db5ceababbf91cb933f1299b01d2491db268b8a9ab8797b91d0d333a10465e6",
+    "core_count": 1,
+    "auxiliary_count": 5,
+    "bundled_classifier_commit": "dbd6c4cc4fb35bb820205b500b2bdf67eb84b34b",
+    "classifier_runtime": {
+      "valid": true,
+      "profile_sha256": "150a12b596c3c43c62653c66417d37439d5a094f15826b2043102244625f3afd",
+      "question_set_sha256": "5db5ceababbf91cb933f1299b01d2491db268b8a9ab8797b91d0d333a10465e6",
+      "schema_matches_bundled": true,
+      "root": "C:\\Users\\anton\\.codex\\.chatgpt-projects\\g-p-6a7f05486e308191a46f904f953afeef\\outputs\\scoring-profile-maker-reference",
+      "commit": "dbd6c4cc4fb35bb820205b500b2bdf67eb84b34b",
+      "revision_scope": "Working checkout runtime; commit does not assert a clean checkout"
+    }
+  }
+}

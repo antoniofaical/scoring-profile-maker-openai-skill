@@ -1,0 +1,58 @@
+{
+  "request_schema_version": 1,
+  "profile_id": "digital_twin",
+  "profile_name": "Digital twin adherence",
+  "objective": "Revisar somente o peso de repeated_synchronization para 2.0, preservando respostas antigas tecnicamente compatíveis.",
+  "subject": "Empresas avaliadas pelo perfil digital_twin existente.",
+  "target_definition": "Measures how strongly the supplied evidence supports the functional characteristics of a digital twin.",
+  "decision_use": "Mesmo construto e uso do baseline; mudança solicitada de importância relativa da sincronização.",
+  "evidence_description": "Mesmo contrato de evidência e instrução do baseline; sem nova coleta.",
+  "evidence_exclusions": [
+    "Critérios e instrução alterados por reescrita",
+    "Inferência de validade empírica pela mudança de peso"
+  ],
+  "required_dimensions": [
+    {
+      "name": "specific_counterpart",
+      "definition": "Does the evidence clearly show a digital representation of one specific, identifiable physical or biological counterpart, rather than a generic model?",
+      "importance": "required"
+    },
+    {
+      "name": "individualized_data_link",
+      "definition": "Does measured data from that specific counterpart initialize or personalize its corresponding model?",
+      "importance": "required"
+    },
+    {
+      "name": "repeated_synchronization",
+      "definition": "Is the virtual representation repeatedly updated with new data from the same real-world counterpart?",
+      "importance": "required"
+    },
+    {
+      "name": "simulation_prediction",
+      "definition": "Does the virtual representation simulate scenarios, predict outcomes, or evaluate interventions?",
+      "importance": "required"
+    }
+  ],
+  "optional_signals": [
+    {
+      "name": "self_claim",
+      "definition": "Does the company explicitly call this product or technology a digital twin?",
+      "flag_threshold": 0.7
+    },
+    {
+      "name": "enabling_technology",
+      "definition": "Even if a complete digital twin is not evidenced, is this clearly an enabling component such as virtual modeling, simulation, sensing, or data integration?"
+    }
+  ],
+  "missing_evidence_policy": "Preservada literalmente na instrução do perfil; não introduzir novo comportamento.",
+  "compensation_policy": "Preservar weighted_geometric_bottleneck com 0.6 geométrico e 0.4 mínimo; peso 2.0 apenas em repeated_synchronization.",
+  "languages": [
+    "English"
+  ],
+  "known_edge_cases": [
+    "Sincronização fraca com demais dimensões altas",
+    "Outra dimensão fraca",
+    "Auxiliares altos e core baixo",
+    "Core zero"
+  ]
+}

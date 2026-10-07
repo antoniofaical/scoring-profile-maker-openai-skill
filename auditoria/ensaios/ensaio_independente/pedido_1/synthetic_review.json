@@ -1,0 +1,1139 @@
+{
+  "scope": "Casos fictícios e valores atribuídos manualmente. Confere cálculo e coerência pretendida, não compreensão do texto pelo Jev nem precisão.",
+  "cases": [
+    {
+      "case": "estoque_varejista_sem_agricultura",
+      "fictitious_evidence": "Descrição fictícia: produto registra recebimentos e saídas por SKU para lojas.",
+      "assigned_scores_not_model_outputs": {
+        "functional_de_para_fit": 0.9,
+        "inventory_movements": 0.9,
+        "lot_traceability": 0,
+        "replenishment_orders": 0,
+        "agricultural_sector_context": 0,
+        "cooperative_target_self_claim": 0
+      },
+      "semantic_expectation": "Forte suporte",
+      "records": [
+        {
+          "request": 1,
+          "evidence_unit": "synthetic:estoque_varejista_sem_agricultura",
+          "probabilities": {
+            "functional_de_para_fit": 0.9,
+            "inventory_movements": 0.9,
+            "lot_traceability": 0,
+            "replenishment_orders": 0,
+            "agricultural_sector_context": 0,
+            "cooperative_target_self_claim": 0
+          }
+        }
+      ],
+      "actual_runtime_result": {
+        "simulation": true,
+        "not_jev_answers": true,
+        "fit_result_schema_version": 1,
+        "profile": {
+          "id": "agricultural_cooperative_functional_mapping",
+          "version": "1.0.0",
+          "name": "De-para funcional para necessidades de cooperativas agrícolas",
+          "sha256": "150a12b596c3c43c62653c66417d37439d5a094f15826b2043102244625f3afd"
+        },
+        "subject": "estoque_varejista_sem_agricultura",
+        "fit_score": 90.0,
+        "criterion_scores": {
+          "functional_de_para_fit": 90.0
+        },
+        "auxiliary_scores": {
+          "inventory_movements": 90.0,
+          "lot_traceability": 0.0,
+          "replenishment_orders": 0.0,
+          "agricultural_sector_context": 0.0,
+          "cooperative_target_self_claim": 0.0
+        },
+        "auxiliary_flags": {},
+        "main_strength": "functional_de_para_fit",
+        "main_gap": "functional_de_para_fit",
+        "aggregation": {
+          "method": "weighted_mean",
+          "evidence_method": "top_weighted",
+          "top_evidence_weights": [
+            0.6,
+            0.25,
+            0.15
+          ],
+          "evidence_units": 1
+        },
+        "criterion_evidence": {
+          "functional_de_para_fit": [
+            {
+              "score": 90.0,
+              "weight": 1.0,
+              "request": 1,
+              "sources": [
+                "synthetic:estoque_varejista_sem_agricultura"
+              ]
+            }
+          ],
+          "inventory_movements": [
+            {
+              "score": 90.0,
+              "weight": 1.0,
+              "request": 1,
+              "sources": [
+                "synthetic:estoque_varejista_sem_agricultura"
+              ]
+            }
+          ],
+          "lot_traceability": [
+            {
+              "score": 0.0,
+              "weight": 1.0,
+              "request": 1,
+              "sources": [
+                "synthetic:estoque_varejista_sem_agricultura"
+              ]
+            }
+          ],
+          "replenishment_orders": [
+            {
+              "score": 0.0,
+              "weight": 1.0,
+              "request": 1,
+              "sources": [
+                "synthetic:estoque_varejista_sem_agricultura"
+              ]
+            }
+          ],
+          "agricultural_sector_context": [
+            {
+              "score": 0.0,
+              "weight": 1.0,
+              "request": 1,
+              "sources": [
+                "synthetic:estoque_varejista_sem_agricultura"
+              ]
+            }
+          ],
+          "cooperative_target_self_claim": [
+            {
+              "score": 0.0,
+              "weight": 1.0,
+              "request": 1,
+              "sources": [
+                "synthetic:estoque_varejista_sem_agricultura"
+              ]
+            }
+          ]
+        }
+      },
+      "expected_arithmetic_score": 90
+    },
+    {
+      "case": "somente_rastreabilidade",
+      "fictitious_evidence": "Descrição fictícia: produto liga lote identificado aos registros de movimentação.",
+      "assigned_scores_not_model_outputs": {
+        "functional_de_para_fit": 0.9,
+        "inventory_movements": 0,
+        "lot_traceability": 0.9,
+        "replenishment_orders": 0,
+        "agricultural_sector_context": 0,
+        "cooperative_target_self_claim": 0
+      },
+      "semantic_expectation": "Forte suporte",
+      "records": [
+        {
+          "request": 1,
+          "evidence_unit": "synthetic:somente_rastreabilidade",
+          "probabilities": {
+            "functional_de_para_fit": 0.9,
+            "inventory_movements": 0,
+            "lot_traceability": 0.9,
+            "replenishment_orders": 0,
+            "agricultural_sector_context": 0,
+            "cooperative_target_self_claim": 0
+          }
+        }
+      ],
+      "actual_runtime_result": {
+        "simulation": true,
+        "not_jev_answers": true,
+        "fit_result_schema_version": 1,
+        "profile": {
+          "id": "agricultural_cooperative_functional_mapping",
+          "version": "1.0.0",
+          "name": "De-para funcional para necessidades de cooperativas agrícolas",
+          "sha256": "150a12b596c3c43c62653c66417d37439d5a094f15826b2043102244625f3afd"
+        },
+        "subject": "somente_rastreabilidade",
+        "fit_score": 90.0,
+        "criterion_scores": {
+          "functional_de_para_fit": 90.0
+        },
+        "auxiliary_scores": {
+          "inventory_movements": 0.0,
+          "lot_traceability": 90.0,
+          "replenishment_orders": 0.0,
+          "agricultural_sector_context": 0.0,
+          "cooperative_target_self_claim": 0.0
+        },
+        "auxiliary_flags": {},
+        "main_strength": "functional_de_para_fit",
+        "main_gap": "functional_de_para_fit",
+        "aggregation": {
+          "method": "weighted_mean",
+          "evidence_method": "top_weighted",
+          "top_evidence_weights": [
+            0.6,
+            0.25,
+            0.15
+          ],
+          "evidence_units": 1
+        },
+        "criterion_evidence": {
+          "functional_de_para_fit": [
+            {
+              "score": 90.0,
+              "weight": 1.0,
+              "request": 1,
+              "sources": [
+                "synthetic:somente_rastreabilidade"
+              ]
+            }
+          ],
+          "inventory_movements": [
+            {
+              "score": 0.0,
+              "weight": 1.0,
+              "request": 1,
+              "sources": [
+                "synthetic:somente_rastreabilidade"
+              ]
+            }
+          ],
+          "lot_traceability": [
+            {
+              "score": 90.0,
+              "weight": 1.0,
+              "request": 1,
+              "sources": [
+                "synthetic:somente_rastreabilidade"
+              ]
+            }
+          ],
+          "replenishment_orders": [
+            {
+              "score": 0.0,
+              "weight": 1.0,
+              "request": 1,
+              "sources": [
+                "synthetic:somente_rastreabilidade"
+              ]
+            }
+          ],
+          "agricultural_sector_context": [
+            {
+              "score": 0.0,
+              "weight": 1.0,
+              "request": 1,
+              "sources": [
+                "synthetic:somente_rastreabilidade"
+              ]
+            }
+          ],
+          "cooperative_target_self_claim": [
+            {
+              "score": 0.0,
+              "weight": 1.0,
+              "request": 1,
+              "sources": [
+                "synthetic:somente_rastreabilidade"
+              ]
+            }
+          ]
+        }
+      },
+      "expected_arithmetic_score": 90
+    },
+    {
+      "case": "somente_reposicao",
+      "fictitious_evidence": "Descrição fictícia: produto prepara pedido de reposição com itens e quantidades de estoque.",
+      "assigned_scores_not_model_outputs": {
+        "functional_de_para_fit": 0.9,
+        "inventory_movements": 0,
+        "lot_traceability": 0,
+        "replenishment_orders": 0.9,
+        "agricultural_sector_context": 0,
+        "cooperative_target_self_claim": 0
+      },
+      "semantic_expectation": "Forte suporte",
+      "records": [
+        {
+          "request": 1,
+          "evidence_unit": "synthetic:somente_reposicao",
+          "probabilities": {
+            "functional_de_para_fit": 0.9,
+            "inventory_movements": 0,
+            "lot_traceability": 0,
+            "replenishment_orders": 0.9,
+            "agricultural_sector_context": 0,
+            "cooperative_target_self_claim": 0
+          }
+        }
+      ],
+      "actual_runtime_result": {
+        "simulation": true,
+        "not_jev_answers": true,
+        "fit_result_schema_version": 1,
+        "profile": {
+          "id": "agricultural_cooperative_functional_mapping",
+          "version": "1.0.0",
+          "name": "De-para funcional para necessidades de cooperativas agrícolas",
+          "sha256": "150a12b596c3c43c62653c66417d37439d5a094f15826b2043102244625f3afd"
+        },
+        "subject": "somente_reposicao",
+        "fit_score": 90.0,
+        "criterion_scores": {
+          "functional_de_para_fit": 90.0
+        },
+        "auxiliary_scores": {
+          "inventory_movements": 0.0,
+          "lot_traceability": 0.0,
+          "replenishment_orders": 90.0,
+          "agricultural_sector_context": 0.0,
+          "cooperative_target_self_claim": 0.0
+        },
+        "auxiliary_flags": {},
+        "main_strength": "functional_de_para_fit",
+        "main_gap": "functional_de_para_fit",
+        "aggregation": {
+          "method": "weighted_mean",
+          "evidence_method": "top_weighted",
+          "top_evidence_weights": [
+            0.6,
+            0.25,
+            0.15
+          ],
+          "evidence_units": 1
+        },
+        "criterion_evidence": {
+          "functional_de_para_fit": [
+            {
+              "score": 90.0,
+              "weight": 1.0,
+              "request": 1,
+              "sources": [
+                "synthetic:somente_reposicao"
+              ]
+            }
+          ],
+          "inventory_movements": [
+            {
+              "score": 0.0,
+              "weight": 1.0,
+              "request": 1,
+              "sources": [
+                "synthetic:somente_reposicao"
+              ]
+            }
+          ],
+          "lot_traceability": [
+            {
+              "score": 0.0,
+              "weight": 1.0,
+              "request": 1,
+              "sources": [
+                "synthetic:somente_reposicao"
+              ]
+            }
+          ],
+          "replenishment_orders": [
+            {
+              "score": 90.0,
+              "weight": 1.0,
+              "request": 1,
+              "sources": [
+                "synthetic:somente_reposicao"
+              ]
+            }
+          ],
+          "agricultural_sector_context": [
+            {
+              "score": 0.0,
+              "weight": 1.0,
+              "request": 1,
+              "sources": [
+                "synthetic:somente_reposicao"
+              ]
+            }
+          ],
+          "cooperative_target_self_claim": [
+            {
+              "score": 0.0,
+              "weight": 1.0,
+              "request": 1,
+              "sources": [
+                "synthetic:somente_reposicao"
+              ]
+            }
+          ]
+        }
+      },
+      "expected_arithmetic_score": 90
+    },
+    {
+      "case": "tres_funcoes",
+      "fictitious_evidence": "Descrição fictícia: produto possui as três funções com igual suporte documental.",
+      "assigned_scores_not_model_outputs": {
+        "functional_de_para_fit": 0.9,
+        "inventory_movements": 0.9,
+        "lot_traceability": 0.9,
+        "replenishment_orders": 0.9,
+        "agricultural_sector_context": 0.9,
+        "cooperative_target_self_claim": 0.9
+      },
+      "semantic_expectation": "Forte suporte",
+      "records": [
+        {
+          "request": 1,
+          "evidence_unit": "synthetic:tres_funcoes",
+          "probabilities": {
+            "functional_de_para_fit": 0.9,
+            "inventory_movements": 0.9,
+            "lot_traceability": 0.9,
+            "replenishment_orders": 0.9,
+            "agricultural_sector_context": 0.9,
+            "cooperative_target_self_claim": 0.9
+          }
+        }
+      ],
+      "actual_runtime_result": {
+        "simulation": true,
+        "not_jev_answers": true,
+        "fit_result_schema_version": 1,
+        "profile": {
+          "id": "agricultural_cooperative_functional_mapping",
+          "version": "1.0.0",
+          "name": "De-para funcional para necessidades de cooperativas agrícolas",
+          "sha256": "150a12b596c3c43c62653c66417d37439d5a094f15826b2043102244625f3afd"
+        },
+        "subject": "tres_funcoes",
+        "fit_score": 90.0,
+        "criterion_scores": {
+          "functional_de_para_fit": 90.0
+        },
+        "auxiliary_scores": {
+          "inventory_movements": 90.0,
+          "lot_traceability": 90.0,
+          "replenishment_orders": 90.0,
+          "agricultural_sector_context": 90.0,
+          "cooperative_target_self_claim": 90.0
+        },
+        "auxiliary_flags": {},
+        "main_strength": "functional_de_para_fit",
+        "main_gap": "functional_de_para_fit",
+        "aggregation": {
+          "method": "weighted_mean",
+          "evidence_method": "top_weighted",
+          "top_evidence_weights": [
+            0.6,
+            0.25,
+            0.15
+          ],
+          "evidence_units": 1
+        },
+        "criterion_evidence": {
+          "functional_de_para_fit": [
+            {
+              "score": 90.0,
+              "weight": 1.0,
+              "request": 1,
+              "sources": [
+                "synthetic:tres_funcoes"
+              ]
+            }
+          ],
+          "inventory_movements": [
+            {
+              "score": 90.0,
+              "weight": 1.0,
+              "request": 1,
+              "sources": [
+                "synthetic:tres_funcoes"
+              ]
+            }
+          ],
+          "lot_traceability": [
+            {
+              "score": 90.0,
+              "weight": 1.0,
+              "request": 1,
+              "sources": [
+                "synthetic:tres_funcoes"
+              ]
+            }
+          ],
+          "replenishment_orders": [
+            {
+              "score": 90.0,
+              "weight": 1.0,
+              "request": 1,
+              "sources": [
+                "synthetic:tres_funcoes"
+              ]
+            }
+          ],
+          "agricultural_sector_context": [
+            {
+              "score": 90.0,
+              "weight": 1.0,
+              "request": 1,
+              "sources": [
+                "synthetic:tres_funcoes"
+              ]
+            }
+          ],
+          "cooperative_target_self_claim": [
+            {
+              "score": 90.0,
+              "weight": 1.0,
+              "request": 1,
+              "sources": [
+                "synthetic:tres_funcoes"
+              ]
+            }
+          ]
+        }
+      },
+      "expected_arithmetic_score": 90
+    },
+    {
+      "case": "rotulo_agricola_sem_funcao",
+      "fictitious_evidence": "Descrição fictícia: soluções para agricultura e cooperativas, sem função descrita.",
+      "assigned_scores_not_model_outputs": {
+        "functional_de_para_fit": 0,
+        "inventory_movements": 0,
+        "lot_traceability": 0,
+        "replenishment_orders": 0,
+        "agricultural_sector_context": 1,
+        "cooperative_target_self_claim": 1
+      },
+      "semantic_expectation": "Baixo suporte ou incerteza",
+      "records": [
+        {
+          "request": 1,
+          "evidence_unit": "synthetic:rotulo_agricola_sem_funcao",
+          "probabilities": {
+            "functional_de_para_fit": 0,
+            "inventory_movements": 0,
+            "lot_traceability": 0,
+            "replenishment_orders": 0,
+            "agricultural_sector_context": 1,
+            "cooperative_target_self_claim": 1
+          }
+        }
+      ],
+      "actual_runtime_result": {
+        "simulation": true,
+        "not_jev_answers": true,
+        "fit_result_schema_version": 1,
+        "profile": {
+          "id": "agricultural_cooperative_functional_mapping",
+          "version": "1.0.0",
+          "name": "De-para funcional para necessidades de cooperativas agrícolas",
+          "sha256": "150a12b596c3c43c62653c66417d37439d5a094f15826b2043102244625f3afd"
+        },
+        "subject": "rotulo_agricola_sem_funcao",
+        "fit_score": 0.0,
+        "criterion_scores": {
+          "functional_de_para_fit": 0.0
+        },
+        "auxiliary_scores": {
+          "inventory_movements": 0.0,
+          "lot_traceability": 0.0,
+          "replenishment_orders": 0.0,
+          "agricultural_sector_context": 100.0,
+          "cooperative_target_self_claim": 100.0
+        },
+        "auxiliary_flags": {},
+        "main_strength": "functional_de_para_fit",
+        "main_gap": "functional_de_para_fit",
+        "aggregation": {
+          "method": "weighted_mean",
+          "evidence_method": "top_weighted",
+          "top_evidence_weights": [
+            0.6,
+            0.25,
+            0.15
+          ],
+          "evidence_units": 1
+        },
+        "criterion_evidence": {
+          "functional_de_para_fit": [
+            {
+              "score": 0.0,
+              "weight": 1.0,
+              "request": 1,
+              "sources": [
+                "synthetic:rotulo_agricola_sem_funcao"
+              ]
+            }
+          ],
+          "inventory_movements": [
+            {
+              "score": 0.0,
+              "weight": 1.0,
+              "request": 1,
+              "sources": [
+                "synthetic:rotulo_agricola_sem_funcao"
+              ]
+            }
+          ],
+          "lot_traceability": [
+            {
+              "score": 0.0,
+              "weight": 1.0,
+              "request": 1,
+              "sources": [
+                "synthetic:rotulo_agricola_sem_funcao"
+              ]
+            }
+          ],
+          "replenishment_orders": [
+            {
+              "score": 0.0,
+              "weight": 1.0,
+              "request": 1,
+              "sources": [
+                "synthetic:rotulo_agricola_sem_funcao"
+              ]
+            }
+          ],
+          "agricultural_sector_context": [
+            {
+              "score": 100.0,
+              "weight": 1.0,
+              "request": 1,
+              "sources": [
+                "synthetic:rotulo_agricola_sem_funcao"
+              ]
+            }
+          ],
+          "cooperative_target_self_claim": [
+            {
+              "score": 100.0,
+              "weight": 1.0,
+              "request": 1,
+              "sources": [
+                "synthetic:rotulo_agricola_sem_funcao"
+              ]
+            }
+          ]
+        }
+      },
+      "expected_arithmetic_score": 0
+    },
+    {
+      "case": "marketing_enganoso",
+      "fictitious_evidence": "Descrição fictícia: somos líderes e revolucionamos o futuro do agro; nenhuma função descrita.",
+      "assigned_scores_not_model_outputs": {
+        "functional_de_para_fit": 0,
+        "inventory_movements": 0,
+        "lot_traceability": 0,
+        "replenishment_orders": 0,
+        "agricultural_sector_context": 1,
+        "cooperative_target_self_claim": 1
+      },
+      "semantic_expectation": "Baixo suporte ou incerteza",
+      "records": [
+        {
+          "request": 1,
+          "evidence_unit": "synthetic:marketing_enganoso",
+          "probabilities": {
+            "functional_de_para_fit": 0,
+            "inventory_movements": 0,
+            "lot_traceability": 0,
+            "replenishment_orders": 0,
+            "agricultural_sector_context": 1,
+            "cooperative_target_self_claim": 1
+          }
+        }
+      ],
+      "actual_runtime_result": {
+        "simulation": true,
+        "not_jev_answers": true,
+        "fit_result_schema_version": 1,
+        "profile": {
+          "id": "agricultural_cooperative_functional_mapping",
+          "version": "1.0.0",
+          "name": "De-para funcional para necessidades de cooperativas agrícolas",
+          "sha256": "150a12b596c3c43c62653c66417d37439d5a094f15826b2043102244625f3afd"
+        },
+        "subject": "marketing_enganoso",
+        "fit_score": 0.0,
+        "criterion_scores": {
+          "functional_de_para_fit": 0.0
+        },
+        "auxiliary_scores": {
+          "inventory_movements": 0.0,
+          "lot_traceability": 0.0,
+          "replenishment_orders": 0.0,
+          "agricultural_sector_context": 100.0,
+          "cooperative_target_self_claim": 100.0
+        },
+        "auxiliary_flags": {},
+        "main_strength": "functional_de_para_fit",
+        "main_gap": "functional_de_para_fit",
+        "aggregation": {
+          "method": "weighted_mean",
+          "evidence_method": "top_weighted",
+          "top_evidence_weights": [
+            0.6,
+            0.25,
+            0.15
+          ],
+          "evidence_units": 1
+        },
+        "criterion_evidence": {
+          "functional_de_para_fit": [
+            {
+              "score": 0.0,
+              "weight": 1.0,
+              "request": 1,
+              "sources": [
+                "synthetic:marketing_enganoso"
+              ]
+            }
+          ],
+          "inventory_movements": [
+            {
+              "score": 0.0,
+              "weight": 1.0,
+              "request": 1,
+              "sources": [
+                "synthetic:marketing_enganoso"
+              ]
+            }
+          ],
+          "lot_traceability": [
+            {
+              "score": 0.0,
+              "weight": 1.0,
+              "request": 1,
+              "sources": [
+                "synthetic:marketing_enganoso"
+              ]
+            }
+          ],
+          "replenishment_orders": [
+            {
+              "score": 0.0,
+              "weight": 1.0,
+              "request": 1,
+              "sources": [
+                "synthetic:marketing_enganoso"
+              ]
+            }
+          ],
+          "agricultural_sector_context": [
+            {
+              "score": 100.0,
+              "weight": 1.0,
+              "request": 1,
+              "sources": [
+                "synthetic:marketing_enganoso"
+              ]
+            }
+          ],
+          "cooperative_target_self_claim": [
+            {
+              "score": 100.0,
+              "weight": 1.0,
+              "request": 1,
+              "sources": [
+                "synthetic:marketing_enganoso"
+              ]
+            }
+          ]
+        }
+      },
+      "expected_arithmetic_score": 0
+    },
+    {
+      "case": "evidencia_escassa",
+      "fictitious_evidence": "Descrição fictícia: gerenciamento de negócios, sem detalhamento.",
+      "assigned_scores_not_model_outputs": {
+        "functional_de_para_fit": 0.1,
+        "inventory_movements": 0.1,
+        "lot_traceability": 0.1,
+        "replenishment_orders": 0.1,
+        "agricultural_sector_context": 0,
+        "cooperative_target_self_claim": 0
+      },
+      "semantic_expectation": "Baixo suporte ou incerteza",
+      "records": [
+        {
+          "request": 1,
+          "evidence_unit": "synthetic:evidencia_escassa",
+          "probabilities": {
+            "functional_de_para_fit": 0.1,
+            "inventory_movements": 0.1,
+            "lot_traceability": 0.1,
+            "replenishment_orders": 0.1,
+            "agricultural_sector_context": 0,
+            "cooperative_target_self_claim": 0
+          }
+        }
+      ],
+      "actual_runtime_result": {
+        "simulation": true,
+        "not_jev_answers": true,
+        "fit_result_schema_version": 1,
+        "profile": {
+          "id": "agricultural_cooperative_functional_mapping",
+          "version": "1.0.0",
+          "name": "De-para funcional para necessidades de cooperativas agrícolas",
+          "sha256": "150a12b596c3c43c62653c66417d37439d5a094f15826b2043102244625f3afd"
+        },
+        "subject": "evidencia_escassa",
+        "fit_score": 10.0,
+        "criterion_scores": {
+          "functional_de_para_fit": 10.0
+        },
+        "auxiliary_scores": {
+          "inventory_movements": 10.0,
+          "lot_traceability": 10.0,
+          "replenishment_orders": 10.0,
+          "agricultural_sector_context": 0.0,
+          "cooperative_target_self_claim": 0.0
+        },
+        "auxiliary_flags": {},
+        "main_strength": "functional_de_para_fit",
+        "main_gap": "functional_de_para_fit",
+        "aggregation": {
+          "method": "weighted_mean",
+          "evidence_method": "top_weighted",
+          "top_evidence_weights": [
+            0.6,
+            0.25,
+            0.15
+          ],
+          "evidence_units": 1
+        },
+        "criterion_evidence": {
+          "functional_de_para_fit": [
+            {
+              "score": 10.0,
+              "weight": 1.0,
+              "request": 1,
+              "sources": [
+                "synthetic:evidencia_escassa"
+              ]
+            }
+          ],
+          "inventory_movements": [
+            {
+              "score": 10.0,
+              "weight": 1.0,
+              "request": 1,
+              "sources": [
+                "synthetic:evidencia_escassa"
+              ]
+            }
+          ],
+          "lot_traceability": [
+            {
+              "score": 10.0,
+              "weight": 1.0,
+              "request": 1,
+              "sources": [
+                "synthetic:evidencia_escassa"
+              ]
+            }
+          ],
+          "replenishment_orders": [
+            {
+              "score": 10.0,
+              "weight": 1.0,
+              "request": 1,
+              "sources": [
+                "synthetic:evidencia_escassa"
+              ]
+            }
+          ],
+          "agricultural_sector_context": [
+            {
+              "score": 0.0,
+              "weight": 1.0,
+              "request": 1,
+              "sources": [
+                "synthetic:evidencia_escassa"
+              ]
+            }
+          ],
+          "cooperative_target_self_claim": [
+            {
+              "score": 0.0,
+              "weight": 1.0,
+              "request": 1,
+              "sources": [
+                "synthetic:evidencia_escassa"
+              ]
+            }
+          ]
+        }
+      },
+      "expected_arithmetic_score": 10
+    },
+    {
+      "case": "limite_lote_sem_vinculo",
+      "fictitious_evidence": "Descrição fictícia: etiqueta contém número de lote, sem registros de rastreabilidade descritos.",
+      "assigned_scores_not_model_outputs": {
+        "functional_de_para_fit": 0.2,
+        "inventory_movements": 0,
+        "lot_traceability": 0.2,
+        "replenishment_orders": 0,
+        "agricultural_sector_context": 0,
+        "cooperative_target_self_claim": 0
+      },
+      "semantic_expectation": "Baixo suporte ou incerteza",
+      "records": [
+        {
+          "request": 1,
+          "evidence_unit": "synthetic:limite_lote_sem_vinculo",
+          "probabilities": {
+            "functional_de_para_fit": 0.2,
+            "inventory_movements": 0,
+            "lot_traceability": 0.2,
+            "replenishment_orders": 0,
+            "agricultural_sector_context": 0,
+            "cooperative_target_self_claim": 0
+          }
+        }
+      ],
+      "actual_runtime_result": {
+        "simulation": true,
+        "not_jev_answers": true,
+        "fit_result_schema_version": 1,
+        "profile": {
+          "id": "agricultural_cooperative_functional_mapping",
+          "version": "1.0.0",
+          "name": "De-para funcional para necessidades de cooperativas agrícolas",
+          "sha256": "150a12b596c3c43c62653c66417d37439d5a094f15826b2043102244625f3afd"
+        },
+        "subject": "limite_lote_sem_vinculo",
+        "fit_score": 20.0,
+        "criterion_scores": {
+          "functional_de_para_fit": 20.0
+        },
+        "auxiliary_scores": {
+          "inventory_movements": 0.0,
+          "lot_traceability": 20.0,
+          "replenishment_orders": 0.0,
+          "agricultural_sector_context": 0.0,
+          "cooperative_target_self_claim": 0.0
+        },
+        "auxiliary_flags": {},
+        "main_strength": "functional_de_para_fit",
+        "main_gap": "functional_de_para_fit",
+        "aggregation": {
+          "method": "weighted_mean",
+          "evidence_method": "top_weighted",
+          "top_evidence_weights": [
+            0.6,
+            0.25,
+            0.15
+          ],
+          "evidence_units": 1
+        },
+        "criterion_evidence": {
+          "functional_de_para_fit": [
+            {
+              "score": 20.0,
+              "weight": 1.0,
+              "request": 1,
+              "sources": [
+                "synthetic:limite_lote_sem_vinculo"
+              ]
+            }
+          ],
+          "inventory_movements": [
+            {
+              "score": 0.0,
+              "weight": 1.0,
+              "request": 1,
+              "sources": [
+                "synthetic:limite_lote_sem_vinculo"
+              ]
+            }
+          ],
+          "lot_traceability": [
+            {
+              "score": 20.0,
+              "weight": 1.0,
+              "request": 1,
+              "sources": [
+                "synthetic:limite_lote_sem_vinculo"
+              ]
+            }
+          ],
+          "replenishment_orders": [
+            {
+              "score": 0.0,
+              "weight": 1.0,
+              "request": 1,
+              "sources": [
+                "synthetic:limite_lote_sem_vinculo"
+              ]
+            }
+          ],
+          "agricultural_sector_context": [
+            {
+              "score": 0.0,
+              "weight": 1.0,
+              "request": 1,
+              "sources": [
+                "synthetic:limite_lote_sem_vinculo"
+              ]
+            }
+          ],
+          "cooperative_target_self_claim": [
+            {
+              "score": 0.0,
+              "weight": 1.0,
+              "request": 1,
+              "sources": [
+                "synthetic:limite_lote_sem_vinculo"
+              ]
+            }
+          ]
+        }
+      },
+      "expected_arithmetic_score": 20
+    },
+    {
+      "case": "limite_somente_entradas",
+      "fictitious_evidence": "Descrição fictícia: registra somente recebimentos, sem saídas, rastreabilidade ou reposição.",
+      "assigned_scores_not_model_outputs": {
+        "functional_de_para_fit": 0.2,
+        "inventory_movements": 0.2,
+        "lot_traceability": 0,
+        "replenishment_orders": 0,
+        "agricultural_sector_context": 0,
+        "cooperative_target_self_claim": 0
+      },
+      "semantic_expectation": "Baixo suporte ou incerteza",
+      "records": [
+        {
+          "request": 1,
+          "evidence_unit": "synthetic:limite_somente_entradas",
+          "probabilities": {
+            "functional_de_para_fit": 0.2,
+            "inventory_movements": 0.2,
+            "lot_traceability": 0,
+            "replenishment_orders": 0,
+            "agricultural_sector_context": 0,
+            "cooperative_target_self_claim": 0
+          }
+        }
+      ],
+      "actual_runtime_result": {
+        "simulation": true,
+        "not_jev_answers": true,
+        "fit_result_schema_version": 1,
+        "profile": {
+          "id": "agricultural_cooperative_functional_mapping",
+          "version": "1.0.0",
+          "name": "De-para funcional para necessidades de cooperativas agrícolas",
+          "sha256": "150a12b596c3c43c62653c66417d37439d5a094f15826b2043102244625f3afd"
+        },
+        "subject": "limite_somente_entradas",
+        "fit_score": 20.0,
+        "criterion_scores": {
+          "functional_de_para_fit": 20.0
+        },
+        "auxiliary_scores": {
+          "inventory_movements": 20.0,
+          "lot_traceability": 0.0,
+          "replenishment_orders": 0.0,
+          "agricultural_sector_context": 0.0,
+          "cooperative_target_self_claim": 0.0
+        },
+        "auxiliary_flags": {},
+        "main_strength": "functional_de_para_fit",
+        "main_gap": "functional_de_para_fit",
+        "aggregation": {
+          "method": "weighted_mean",
+          "evidence_method": "top_weighted",
+          "top_evidence_weights": [
+            0.6,
+            0.25,
+            0.15
+          ],
+          "evidence_units": 1
+        },
+        "criterion_evidence": {
+          "functional_de_para_fit": [
+            {
+              "score": 20.0,
+              "weight": 1.0,
+              "request": 1,
+              "sources": [
+                "synthetic:limite_somente_entradas"
+              ]
+            }
+          ],
+          "inventory_movements": [
+            {
+              "score": 20.0,
+              "weight": 1.0,
+              "request": 1,
+              "sources": [
+                "synthetic:limite_somente_entradas"
+              ]
+            }
+          ],
+          "lot_traceability": [
+            {
+              "score": 0.0,
+              "weight": 1.0,
+              "request": 1,
+              "sources": [
+                "synthetic:limite_somente_entradas"
+              ]
+            }
+          ],
+          "replenishment_orders": [
+            {
+              "score": 0.0,
+              "weight": 1.0,
+              "request": 1,
+              "sources": [
+                "synthetic:limite_somente_entradas"
+              ]
+            }
+          ],
+          "agricultural_sector_context": [
+            {
+              "score": 0.0,
+              "weight": 1.0,
+              "request": 1,
+              "sources": [
+                "synthetic:limite_somente_entradas"
+              ]
+            }
+          ],
+          "cooperative_target_self_claim": [
+            {
+              "score": 0.0,
+              "weight": 1.0,
+              "request": 1,
+              "sources": [
+                "synthetic:limite_somente_entradas"
+              ]
+            }
+          ]
+        }
+      },
+      "expected_arithmetic_score": 20
+    }
+  ]
+}

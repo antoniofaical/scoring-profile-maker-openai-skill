@@ -1,0 +1,45 @@
+{
+  "exit_code": 0,
+  "expected_exit_code": 0,
+  "stdout": "{\n  \"valid\": true,\n  \"validation_scope\": \"Bundled JSON Schema plus runtime invariants; not semantic approval or empirical calibration\",\n  \"profile\": {\n    \"id\": \"digital_twin\",\n    \"version\": \"1.1.0\"\n  },\n  \"profile_sha256\": \"335a88fdef37d7d19205c9522c9044a7e50d7b9e39f8d952b8c843b3357b69f1\",\n  \"question_set_sha256\": \"ab8c8def4cdafbacb061a2316ccb1d6d3b7189de010cc9a20b8e49a20b8e0771\",\n  \"core_count\": 4,\n  \"auxiliary_count\": 2,\n  \"bundled_classifier_commit\": \"dbd6c4cc4fb35bb820205b500b2bdf67eb84b34b\",\n  \"comparison\": {\n    \"baseline\": {\n      \"id\": \"digital_twin\",\n      \"version\": \"1.0.0\"\n    },\n    \"same_profile_id\": true,\n    \"same_question_set\": true,\n    \"saved_answers_compatible_for_text_replay\": true,\n    \"saved_site_run_compatible_for_score_lookup\": true,\n    \"shared_instruction_changed\": false,\n    \"added_criterion_ids\": [],\n    \"removed_criterion_ids\": [],\n    \"changed_question_ids\": [],\n    \"suggested_version_change\": \"minor\",\n    \"warnings\": [],\n    \"limits\": \"Compatibility requires saved records with matching hashes, a consistent model, all criteria, and a completed run where applicable; semantic review remains necessary.\"\n  },\n  \"classifier_runtime\": {\n    \"valid\": true,\n    \"profile_sha256\": \"335a88fdef37d7d19205c9522c9044a7e50d7b9e39f8d952b8c843b3357b69f1\",\n    \"question_set_sha256\": \"ab8c8def4cdafbacb061a2316ccb1d6d3b7189de010cc9a20b8e49a20b8e0771\",\n    \"schema_matches_bundled\": true,\n    \"root\": \"C:\\\\Users\\\\anton\\\\.codex\\\\.chatgpt-projects\\\\g-p-6a7f05486e308191a46f904f953afeef\\\\outputs\\\\scoring-profile-maker-reference\",\n    \"commit\": \"dbd6c4cc4fb35bb820205b500b2bdf67eb84b34b\",\n    \"revision_scope\": \"Working checkout runtime; commit does not assert a clean checkout\"\n  }\n}\n",
+  "stderr": "",
+  "report": {
+    "valid": true,
+    "validation_scope": "Bundled JSON Schema plus runtime invariants; not semantic approval or empirical calibration",
+    "profile": {
+      "id": "digital_twin",
+      "version": "1.1.0"
+    },
+    "profile_sha256": "335a88fdef37d7d19205c9522c9044a7e50d7b9e39f8d952b8c843b3357b69f1",
+    "question_set_sha256": "ab8c8def4cdafbacb061a2316ccb1d6d3b7189de010cc9a20b8e49a20b8e0771",
+    "core_count": 4,
+    "auxiliary_count": 2,
+    "bundled_classifier_commit": "dbd6c4cc4fb35bb820205b500b2bdf67eb84b34b",
+    "comparison": {
+      "baseline": {
+        "id": "digital_twin",
+        "version": "1.0.0"
+      },
+      "same_profile_id": true,
+      "same_question_set": true,
+      "saved_answers_compatible_for_text_replay": true,
+      "saved_site_run_compatible_for_score_lookup": true,
+      "shared_instruction_changed": false,
+      "added_criterion_ids": [],
+      "removed_criterion_ids": [],
+      "changed_question_ids": [],
+      "suggested_version_change": "minor",
+      "warnings": [],
+      "limits": "Compatibility requires saved records with matching hashes, a consistent model, all criteria, and a completed run where applicable; semantic review remains necessary."
+    },
+    "classifier_runtime": {
+      "valid": true,
+      "profile_sha256": "335a88fdef37d7d19205c9522c9044a7e50d7b9e39f8d952b8c843b3357b69f1",
+      "question_set_sha256": "ab8c8def4cdafbacb061a2316ccb1d6d3b7189de010cc9a20b8e49a20b8e0771",
+      "schema_matches_bundled": true,
+      "root": "C:\\Users\\anton\\.codex\\.chatgpt-projects\\g-p-6a7f05486e308191a46f904f953afeef\\outputs\\scoring-profile-maker-reference",
+      "commit": "dbd6c4cc4fb35bb820205b500b2bdf67eb84b34b",
+      "revision_scope": "Working checkout runtime; commit does not assert a clean checkout"
+    }
+  }
+}

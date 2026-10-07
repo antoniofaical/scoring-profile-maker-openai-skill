@@ -1,0 +1,11 @@
+{
+  "exit_code": 1,
+  "expected_exit_code": 1,
+  "stdout": "",
+  "stderr": "{\"valid\": false, \"error\": \"Additional properties are not allowed ('generation_error' was unexpected)\", \"path\": []}\n",
+  "report": {
+    "valid": false,
+    "error": "Additional properties are not allowed ('generation_error' was unexpected)",
+    "path": []
+  }
+}

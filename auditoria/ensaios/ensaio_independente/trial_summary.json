@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-07",
+  "status": "ensaios offline concluídos; artefatos em rascunho",
+  "human_review": "pending",
+  "empirical_validation": "not_performed",
+  "request_1": "Perfil funcional com um core e cinco auxiliares; validator e runtime aprovados; nove casos sintéticos aritmeticamente conferidos.",
+  "request_2": "Somente peso e versão alterados; instrução e perguntas literais preservadas; hashes compatíveis; seis recálculos sintéticos conferidos.",
+  "request_3": "Objeto JSON generation_error, sem perfil inventado; rejeição pelo validador de perfis foi esperada.",
+  "actual_problems": [
+    "A primeira execução do harness capturou UTF-8 de um subprocesso cuja stderr padrão no Windows era CP1252, causando UnicodeDecodeError no diagnóstico esperado do pedido 3. O harness foi corrigido com PYTHONIOENCODING=utf-8 e reexecutado; não foi necessário alterar a skill.",
+    "A aplicação inicial usou receipts or issues, mais amplo que entradas e saídas. A revisão corrigiu para and, acrescentou caso limítrofe de recebimentos isolados e repetiu as verificações.",
+    "O pedido 3 não define um construto observável; criação de perfil executável é inviável sem uma decisão de domínio.",
+    "Não havia respostas antigas reais para comprovar replay no pedido 2. A compatibilidade reportada é condicional.",
+    "Não havia sites coletados nem rótulos humanos; casos sintéticos não comprovam interpretação ou precisão do Jev."
+  ],
+  "skill_failures_observed": [],
+  "scope_limits": "Não houve pesquisa externa, API, instalação, classificação de empresas, alterações da skill ou escrita no checkout do classificador.",
+  "checks": [
+    "validator request 1 exit 0",
+    "validator request 2 with baseline exit 0",
+    "validator generation_error exit 1 expected",
+    "nine synthetic functional cases",
+    "six weight recalculations",
+    "literal preservation assertions",
+    "checked protected file SHA-256 unchanged"
+  ]
+}

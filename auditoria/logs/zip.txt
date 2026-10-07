@@ -1,0 +1,1 @@
+{"path": "C:\\Users\\anton\\.codex\\.chatgpt-projects\\g-p-6a7f05486e308191a46f904f953afeef\\scoring-profile-maker-openai-skill\\dist\\scoring-profile-maker-0.1.0.zip", "sha256": "43ef582b0492b10cbb1dcb38bd61d0101b5981f45c586d7be65ba810c4ff201d"}

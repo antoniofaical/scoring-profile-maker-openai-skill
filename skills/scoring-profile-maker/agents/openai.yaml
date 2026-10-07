@@ -1,0 +1,4 @@
+interface:
+  display_name: "Scoring Profile Maker"
+  short_description: "Cria perfis de scoring para o classificador Jev"
+  default_prompt: "Use $scoring-profile-maker para transformar este briefing em um perfil de scoring compatível com o classificador Jev."

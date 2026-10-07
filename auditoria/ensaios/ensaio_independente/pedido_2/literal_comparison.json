@@ -1,0 +1,15 @@
+{
+  "same_shared_instruction_literal": true,
+  "same_questions_literal": true,
+  "same_question_set_sha256": true,
+  "baseline_question_set_sha256": "ab8c8def4cdafbacb061a2316ccb1d6d3b7189de010cc9a20b8e49a20b8e0771",
+  "revision_question_set_sha256": "ab8c8def4cdafbacb061a2316ccb1d6d3b7189de010cc9a20b8e49a20b8e0771",
+  "baseline_profile_sha256": "3463891b88223936cee611c583bf31a89555d51cad16f003308e2720f1ca78e2",
+  "revision_profile_sha256": "335a88fdef37d7d19205c9522c9044a7e50d7b9e39f8d952b8c843b3357b69f1",
+  "baseline_file_sha256": "a727473becc964384c9ecbd75432a8d8dedaa706fbcf2b4f949892d5391bc190",
+  "changes": [
+    "version: 1.0.0 -> 1.1.0",
+    "criteria[repeated_synchronization].weight: 1.0 -> 2.0"
+  ],
+  "only_requested_weight_and_minor_version_changed": true
+}

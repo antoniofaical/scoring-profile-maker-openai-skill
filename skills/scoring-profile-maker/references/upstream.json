@@ -1,0 +1,62 @@
+{
+  "repository": "https://github.com/antoniofaical/startup-theme-adherence-classifier-jev",
+  "commit": "dbd6c4cc4fb35bb820205b500b2bdf67eb84b34b",
+  "verified_on": "2026-10-07",
+  "profile_schema_version": 1,
+  "resources": [
+    {
+      "source": "profiles/profile.schema.json",
+      "url": "https://github.com/antoniofaical/startup-theme-adherence-classifier-jev/blob/dbd6c4cc4fb35bb820205b500b2bdf67eb84b34b/profiles/profile.schema.json",
+      "target": "references/profile.schema.json",
+      "source_sha256": "59d9ee663a70371925640fab34694b64b28ae0165428d550e5289fbe3d13148d",
+      "bundled_sha256": "59d9ee663a70371925640fab34694b64b28ae0165428d550e5289fbe3d13148d",
+      "adaptation": null
+    },
+    {
+      "source": "profiles/profile.template.json",
+      "url": "https://github.com/antoniofaical/startup-theme-adherence-classifier-jev/blob/dbd6c4cc4fb35bb820205b500b2bdf67eb84b34b/profiles/profile.template.json",
+      "target": "assets/profile.template.json",
+      "source_sha256": "8f530924c385f2e61a94f547fee75d1853f6388091a6097b966c7e24dee03589",
+      "bundled_sha256": "8f530924c385f2e61a94f547fee75d1853f6388091a6097b966c7e24dee03589",
+      "adaptation": null
+    },
+    {
+      "source": "profiles/profile_request.template.json",
+      "url": "https://github.com/antoniofaical/startup-theme-adherence-classifier-jev/blob/dbd6c4cc4fb35bb820205b500b2bdf67eb84b34b/profiles/profile_request.template.json",
+      "target": "assets/profile_request.template.json",
+      "source_sha256": "844272fa5508c427a16071a1ee011fd6f7bb1f8922e7ad6bd3d259ef22b4c6e6",
+      "bundled_sha256": "844272fa5508c427a16071a1ee011fd6f7bb1f8922e7ad6bd3d259ef22b4c6e6",
+      "adaptation": null
+    },
+    {
+      "source": "profiles/digital_twin.json",
+      "url": "https://github.com/antoniofaical/startup-theme-adherence-classifier-jev/blob/dbd6c4cc4fb35bb820205b500b2bdf67eb84b34b/profiles/digital_twin.json",
+      "target": "references/examples/digital_twin.json",
+      "source_sha256": "a727473becc964384c9ecbd75432a8d8dedaa706fbcf2b4f949892d5391bc190",
+      "bundled_sha256": "a727473becc964384c9ecbd75432a8d8dedaa706fbcf2b4f949892d5391bc190",
+      "adaptation": null
+    },
+    {
+      "source": "profiles/gsd_patient_journey_mapping.json",
+      "url": "https://github.com/antoniofaical/startup-theme-adherence-classifier-jev/blob/dbd6c4cc4fb35bb820205b500b2bdf67eb84b34b/profiles/gsd_patient_journey_mapping.json",
+      "target": "references/examples/gsd_patient_journey_mapping.json",
+      "source_sha256": "b0309fc711cf43aa190c686d286ea504b1e73e819eee1fb0725d03adea7ab785",
+      "bundled_sha256": "b0309fc711cf43aa190c686d286ea504b1e73e819eee1fb0725d03adea7ab785",
+      "adaptation": null
+    },
+    {
+      "source": "src/startup_adherence/domain/profile.py",
+      "url": "https://github.com/antoniofaical/startup-theme-adherence-classifier-jev/blob/dbd6c4cc4fb35bb820205b500b2bdf67eb84b34b/src/startup_adherence/domain/profile.py",
+      "target": "scripts/_profile_contract.py",
+      "source_sha256": "220b3fb16f5675a36d5e04ead06e6ee5a53de7ed1efa003b748f59d78476ab62",
+      "bundled_sha256": "d7325a7f320b3594758a3c21aa11ae181149373bf86af6b8bc85007ca2ff84e5",
+      "adaptation": "schema loader path only; removed unused files import"
+    }
+  ],
+  "method_sources": [
+    "https://github.com/antoniofaical/startup-theme-adherence-classifier-jev/blob/dbd6c4cc4fb35bb820205b500b2bdf67eb84b34b/profiles/HOW_TO_CREATE_PROFILES.md",
+    "https://github.com/antoniofaical/startup-theme-adherence-classifier-jev/blob/dbd6c4cc4fb35bb820205b500b2bdf67eb84b34b/profiles/PROFILE_GENERATION_PROMPT.md",
+    "https://github.com/antoniofaical/startup-theme-adherence-classifier-jev/blob/dbd6c4cc4fb35bb820205b500b2bdf67eb84b34b/src/startup_adherence/domain/scoring.py",
+    "https://github.com/antoniofaical/startup-theme-adherence-classifier-jev/blob/dbd6c4cc4fb35bb820205b500b2bdf67eb84b34b/README.md"
+  ]
+}

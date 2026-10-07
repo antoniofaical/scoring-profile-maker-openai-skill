@@ -1,0 +1,125 @@
+{
+  "scope": "Recalculo offline do mesmo conjunto de valores sintéticos. Nenhuma resposta Jev antiga real foi fornecida.",
+  "cases": [
+    {
+      "case": "equilibrado",
+      "same_synthetic_records": [
+        {
+          "request": 1,
+          "evidence_unit": "synthetic:equilibrado",
+          "probabilities": {
+            "specific_counterpart": 0.8,
+            "individualized_data_link": 0.8,
+            "repeated_synchronization": 0.8,
+            "simulation_prediction": 0.8,
+            "self_claim": 0,
+            "enabling_technology": 0
+          }
+        }
+      ],
+      "baseline_score": 80.0,
+      "revised_score": 80.0,
+      "delta": 0.0
+    },
+    {
+      "case": "sincronizacao_fraca",
+      "same_synthetic_records": [
+        {
+          "request": 1,
+          "evidence_unit": "synthetic:sincronizacao_fraca",
+          "probabilities": {
+            "specific_counterpart": 0.9,
+            "individualized_data_link": 0.9,
+            "repeated_synchronization": 0.2,
+            "simulation_prediction": 0.9,
+            "self_claim": 1,
+            "enabling_technology": 1
+          }
+        }
+      ],
+      "baseline_score": 45.08,
+      "revised_score": 37.59,
+      "delta": -7.49
+    },
+    {
+      "case": "outra_dimensao_fraca",
+      "same_synthetic_records": [
+        {
+          "request": 1,
+          "evidence_unit": "synthetic:outra_dimensao_fraca",
+          "probabilities": {
+            "specific_counterpart": 0.2,
+            "individualized_data_link": 0.9,
+            "repeated_synchronization": 0.9,
+            "simulation_prediction": 0.9,
+            "self_claim": 1,
+            "enabling_technology": 1
+          }
+        }
+      ],
+      "baseline_score": 45.08,
+      "revised_score": 47.97,
+      "delta": 2.89
+    },
+    {
+      "case": "auxiliares_altos_core_baixo",
+      "same_synthetic_records": [
+        {
+          "request": 1,
+          "evidence_unit": "synthetic:auxiliares_altos_core_baixo",
+          "probabilities": {
+            "specific_counterpart": 0.1,
+            "individualized_data_link": 0.1,
+            "repeated_synchronization": 0.1,
+            "simulation_prediction": 0.1,
+            "self_claim": 1,
+            "enabling_technology": 1
+          }
+        }
+      ],
+      "baseline_score": 10.0,
+      "revised_score": 10.0,
+      "delta": 0.0
+    },
+    {
+      "case": "auxiliares_baixos_core_baixo",
+      "same_synthetic_records": [
+        {
+          "request": 1,
+          "evidence_unit": "synthetic:auxiliares_baixos_core_baixo",
+          "probabilities": {
+            "specific_counterpart": 0.1,
+            "individualized_data_link": 0.1,
+            "repeated_synchronization": 0.1,
+            "simulation_prediction": 0.1,
+            "self_claim": 0,
+            "enabling_technology": 0
+          }
+        }
+      ],
+      "baseline_score": 10.0,
+      "revised_score": 10.0,
+      "delta": 0.0
+    },
+    {
+      "case": "sincronizacao_zero",
+      "same_synthetic_records": [
+        {
+          "request": 1,
+          "evidence_unit": "synthetic:sincronizacao_zero",
+          "probabilities": {
+            "specific_counterpart": 0.9,
+            "individualized_data_link": 0.9,
+            "repeated_synchronization": 0,
+            "simulation_prediction": 0.9,
+            "self_claim": 1,
+            "enabling_technology": 1
+          }
+        }
+      ],
+      "baseline_score": 0.0,
+      "revised_score": 0.0,
+      "delta": 0.0
+    }
+  ]
+}
